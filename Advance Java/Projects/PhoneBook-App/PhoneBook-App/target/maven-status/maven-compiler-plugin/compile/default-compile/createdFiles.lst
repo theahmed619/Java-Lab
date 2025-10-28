@@ -1,0 +1,11 @@
+com\conn\DbConnect.class
+com\servlet\EditContact.class
+com\servlet\DeleteContact.class
+com\servlet\LogoutServlet.class
+com\dao\ContactDAO.class
+com\dao\UserDAO.class
+com\servlet\LoginServlet.class
+com\entity\Contact.class
+com\servlet\RegisterServlet.class
+com\entity\User.class
+com\servlet\AddContact.class
