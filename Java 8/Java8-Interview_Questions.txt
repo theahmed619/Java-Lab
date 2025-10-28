@@ -1,0 +1,65 @@
+✅ Core & Basic (Fresher – Junior level)
+
+What is the major difference between Java 7 and Java 8?
+
+What is a Functional Interface? Give an example.
+
+What is a Lambda Expression? Syntax & real usage?
+
+Why was Optional introduced? How does it solve NullPointerException?
+
+What is the difference between map() and filter() in Stream API?
+
+What is the advantage of forEach() over normal loops?
+
+What are Default and Static methods in Interface? Why added in Java 8?
+
+Explain Method Reference with example.
+
+Why do we use stream() instead of normal loops?
+
+Difference between stream() and parallelStream()?
+
+✅ Intermediate / Real-world
+
+What is the difference between findFirst() and findAny()?
+
+What is the difference between Collections API and Stream API?
+
+How to convert List → Map or List → Set using collectors?
+
+What is peek() in Stream? Why is it only for debugging?
+
+Stateful vs Stateless intermediate operations.
+
+Can streams be reused? Why or why not?
+
+What is Lazy Evaluation in Streams?
+
+Why stream().forEach() is not guaranteed ordered always?
+
+Difference between map() and flatMap()?
+
+What is the difference between Predicate, Consumer, and Supplier?
+
+✅ Senior / Performance / Trick Questions
+
+What are terminal and intermediate operations in Streams?
+
+Explain internal vs external iteration.
+
+Can we use parallelStream() everywhere? Any drawbacks?
+
+How would you handle exception inside Lambda / Stream?
+
+What is the difference between Optional.of() and Optional.ofNullable()?
+
+What is short-circuiting in Stream API? Give example.
+
+Why is parallelStream() dangerous with shared mutable state?
+
+How does Java 8 improve performance (JIT, Lambda bytecode, etc.)?
+
+What changes Java 8 made to improve Collection Framework?
+
+Explain real-time use-case where Streams improved your project code.

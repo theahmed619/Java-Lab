@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .container{
+                border: 1px solid black;
+                margin: auto;
+                width: 30%;
+                padding: 30px;
+                border-radius: 5px;
+                background-color: yellow;
+            }
+            .container form table  tr{
+                margin: 10px;
+
+            }
+            #fm table tr td{
+                padding: 8px;
+                font-size: larger;
+            }
+            .inp{
+                width: 100%;
+                height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form action="logg" method="post" id="fm">
+                <table>
+                    <tr>
+                        <th>Name: </th>
+                        <td><input type="text" name="name" placeholder="Enter here" class="inp"/></td>
+                    </tr>
+                    <tr>
+                        <th>Email: </th>
+                        <td><input type="email" name="email" placeholder="Enter here" class="inp"/></td>
+                    </tr>
+                    <tr>
+                        <th>Password: </th>
+                        <td><input type="password" name="pass" class="inp"/></td>
+                    </tr>
+                    <tr>
+                        <th>Gender: </th>
+                        <td><input type="radio" name="gender" value="male"/>Male
+                            <input type="radio" name="gender" value="female"/>Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Course:
+                        </th>
+                        <td>
+                            <select name="course">
+                                <option value="java">Java</option>
+                                <option value="python">Python</option>
+                                <option value="ruby">Ruby</option>
+                                <option value="android">Android</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right">
+                            <input type="checkbox" name="cond" value="check"/>
+                        </th>
+                        <td>Agree term and Conditions</td>
+                    </tr>
+                    <tr>
+                        <th>
+
+                        </th>
+                        <td>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
